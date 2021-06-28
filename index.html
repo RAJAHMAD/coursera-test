@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+<style>
+.grid-container {
+  display: grid;
+  height: 00px;
+  
+ grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(153,153,153);
+  
+  padding: 50px 0;
+  font-size: 20px;
+}
+</style>-->
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+div {
+	position: relative;
+	margin:30px,15px,15px,15px;
+  border: 1px solid black;
+  background-color: rgb(153,153,153);
+  padding: 20px,10px,5px,10px;
+  width: 40px;
+  height: 80px;
+  font-style: bold;
+ 
+  color: solid black;
+}
+section
+{
+	clear: right;
+	padding: 10px;
+}
+#p1
+{
+	border: 1px solid black;
+	width: 80px;
+  height: 30px;
+  margin:0px;
+  padding: 10px;
+  background-color: rgb(213,152,152);
+font-style: bold;
+font-family: Helvetica;
+float: right;
+
+
+
+}
+#p3
+{
+	border: 1px solid black;
+	width: 80px;
+  height: 30px;
+  margin:0px;
+  padding: 10px;
+  background-color: rgb(193,69,67);
+font-style: bold;
+font-family: Helvetica;
+float: right;
+
+}
+#p4
+{
+	border: 1px solid black;
+	width: 80px;
+  height: 30px;
+  margin:0px;
+  padding: 10px;
+  background-color: rgb(229,209,152);
+font-style: bold;
+font-family: Helvetica;
+float: right;
+
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+	/********** Medium devices only **********/
+	@media (min-width: 950px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    
+  }
+  .col-md-1 {
+    width: 33.33%;
+  }
+  .col-md-2 {
+    width: 66.66%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+</style>
+
+
+<title>
+</title>
+</head>
+
+<body>
+	<h1 align="center">Our Menu</h1>
+
+
+<div class="row">
+  <div class="col-lg-3 col-md-6">
+  	<p id="p1">Chicken</p>
+  	<section>lorem ipsum dolor sit amet,consectetur odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot.
+  	</section>
+  </div>
+  <div class="col-lg-3 col-md-6">
+  	<p id="p3">Beef</p>
+  	<section>lorem ipsum dolor sit amet,consectetur odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot.</section>
+  </div>
+  <div class="col-lg-3 col-md-6">
+  	<p id="p4">Sushi</p>
+  	<section>lorem ipsum dolor sit amet,consectetur odipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequot.
+  	</section>
+  </div>
+
+</div>
+
+</body>
+</html>
